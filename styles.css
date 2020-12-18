@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.contenidor{
+    max-width: auto;
+    max-height: auto;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;   
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background:  linear-gradient(to right, #0a7b8f, black);
+    padding: 15px 0px; 
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);  
+    }
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.logo:hover{
+    animation-play-state: paused;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0px 10px;   
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;  
+}
+
+.navbar li a:hover {
+    color: #0088a9;
+    border-bottom: 2px solid rgba(0, 136, 169, 0.8);
+}
+
+.navbar li a.on{
+    color: #0088a9;
+    border-bottom: 2px solid rgba(0, 136, 169, 0.8);
+}
+
+.rosca {
+    margin-right: 10px;
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8); 
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: white;  
+    margin-right: auto;    
+}
+
+h1{
+    margin-left: 30px;
+}
+
+.primera{
+    display: flex;
+    background-color: rgba(70, 71, 71, 0.8);
+}
+
+.columna2{
+    margin: 30px 40px;
+    
+}
+.columna2 h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;   
+}
+
+.columna2 p{
+    color: white;
+    font-size: 22px;
+    margin-top: 40px;  
+}
+
+.descripcio{
+    background-color: rgba(0, 136, 169, 0.8);
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.descripcio p{
+    color: white;
+}
+
+.segona{
+    align-content: center;
+}
+
+.index_img{
+    display: flex;  
+    margin-left: 150px;
+    margin-top: 50px; 
+}
+
+.index_img img{
+    padding: 20px 100px 0px 100px;
+}
+
+.paragraf{
+    display: flex;
+    margin: 20px 110px 0px 150px;
+}
+
+.paragraf p{
+    padding: 20px 100px 30px 100px;  
+}
+
+.botons{
+    display: flex;
+    margin-left: 100px;
+    padding: 10px 30px;   
+}
+
+.boto{
+    margin: 30px 70px 100px 130px;    
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    border: 1px solid black; 
+    outline: none;
+}
+
+.descripcio:hover{
+    background-color: rgba(70, 71, 71, 0.8);
+}
+
+.descripcio {
+    transition: background-color 1s, border-radius 2s;
+}
+
+.thebutton{
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    padding: 5px 40px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.capçalera{
+    padding-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+
+.capçalera h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.capçalera h3{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgba(0, 136, 169, 0.8);
+}
+
+.insta{
+    margin-left: 1100px;
+    padding-bottom: 10px;  
+}
+
+.text{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text p{
+    padding: 20px 30px 10px 10px;
+    text-align: justify;
+}
+
+.text img{
+    float: left;
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.quimica{
+    display:block;
+    margin:auto;
+}
+
+.text2{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text2 h3{
+    margin-bottom: 40px;
+    color: rgba(0, 136, 169, 0.8);
+}
+.text2 p{
+    padding: 20px 0px 10px 10px;
+    text-align: justify;
+}
+
+.text2 a{
+    color:  rgba(0, 136, 169, 0.8);
+    margin-left: 10px; 
+}
+
+.text2 a:hover{
+    color: red;
+}
+
+.carousel-container{
+    width: 40%;
+    margin: 50px auto;
+    border: 3px solid rgba(0, 136, 169, 0.8);
+    overflow: hidden;
+}
+
+.image-slide{
+    display: flex;
+    width: 100%;
+    height: 300px; 
+}
+
+#backButton{
+    margin: 25px 50px;   
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+}
+#backButton:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+#nextButton{
+    margin: 20px 20px;   
+    margin-left: 1000px;
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+}
+#nextButton:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.logo_2{
+    width: 80px;
+    height: 80px; 
+    animation-name: myanimation;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes myanimation {
+    0%{left: 0;}
+    50%{left: 520px;}
+    100%{left: 0px}
+}
+
+
+#play{
+    width: 40px;
+    height: 40px;
+	display:inline-block;
+    padding: 2px;
+    margin: 10px 5px 10px 10px;
+    cursor: pointer;
+}
+
+#stop{
+    width: 40px;
+    height: 40px;
+	display:inline-block;
+    padding: 2px;
+    margin: 10px 5px 10px 0px;
+    cursor: pointer;
+}
+
+
+iframe{display:none;}
+
+footer{
+    background:  linear-gradient(to left, #0a7b8f, black);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_footer{
+    cursor: pointer;
+    margin-left: 10px;
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;   
+}
+.text_footer{
+    color: rgb(175, 174, 174);
+    margin-left: 30px;
+    padding-right: 250px;
+    font-size: 10px; 
+}
+
+.footer_images{
+    display: flex;
+    margin-right: 70px;
+}
+.footer_images img{
+    padding: 0px 5px;
+}
+footer li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;   
+}
+
+.footer_list li a{
+    transition: all 0.3s ease 0s;
+    font-size: 10px;
+    color: rgb(175, 174, 174);
+}
+
+.footer_list li a:hover{
+    color: black;
+}
+
